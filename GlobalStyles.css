@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*Body Rules*/
+.row-fluid{
+	display: table-cell;
+	vertical-align: middle;
+}
+/*Top NavBar Rules*/
+.navbar-brand{
+	font-family: bonbon;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+}
+.TopButtons {
+	margin-top: -3px;
+}
+/*Carousel Rules*/
+.carousel {
+	z-index: 10;
+}
+
+/*Side NavBar Rules*/
+.btn-group-vertical {
+	position: fixed;
+	top: 35%;
+	font-family: delius-swash-caps;
+	font-style: normal;
+	font-weight: 400;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/*Text Rules*/
+.panel-title{
+	font-family: cabin-sketch;
+	font-style: normal;
+	font-weight: 400;
+	font-size: xx-large;
+	}
+
+/*Column Rules*/
+.col-xs-8 {
+	padding-top: 30px;
+}
+

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CossiePlay|Your Design, Your Rules</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/GlobalStyles.css" rel="stylesheet" type="text/css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+  <script>var __adobewebfontsappname__="dreamweaver"</script>
+  <script src="http://use.edgefonts.net/satisfy:n4:default;meddon:n4:default;aguafina-script:n4:default;unifrakturcook:n7:default;mr-bedfort:n4:default;yesteryear:n4:default;sofia:n4:default;lancelot:n4:default;vibur:n4:default;pacifico:n4:default;covered-by-your-grace:n4:default;bonbon:n4:default;delius-swash-caps:n4:default;cabin-sketch:n4:default.js" type="text/javascript"></script>
+
+  </head>
+  <body style="padding-top: 70px; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="index.html">CossiePlay</a></div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="topFixedNavbar1">
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right TopButtons">
+              
+              <li><a href="#"><button type="button" class="btn btn-sm btn-default">RSVP</button></a></li>
+              <li><a href="#"><button type="button" class="btn btn-sm btn-default">Check your Orders</button></a></li>
+              <li><a href="#"><button type="button" class="btn btn-sm btn-default">Contact Us</button></a></li>
+            </ul>
+</div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel1" data-slide-to="1"></li>
+              <li data-target="#carousel1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="item active"><img src="images/Carousel_Placeholder.png" alt="First slide image" class="center-block">
+                <div class="carousel-caption">
+                  <h3>First slide Heading</h3>
+                  <p>First slide Caption</p>
+                </div>
+              </div>
+              <div class="item"><img src="images/Carousel_Placeholder.png" alt="Second slide image" class="center-block">
+                <div class="carousel-caption">
+                  <h3>Second slide Heading</h3>
+                  <p>Second slide Caption</p>
+                </div>
+              </div>
+              <div class="item"><img src="images/Carousel_Placeholder.png" alt="Third slide image" class="center-block">
+                <div class="carousel-caption">
+                  <h3>Third slide Heading</h3>
+                  <p>Third slide Caption</p>
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
+          <div class="row-fluid">
+            <div class="col-xs-4">
+              <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-default"><a href="#AnnouncementTitle">Announcements</a></button>
+                <button type="button" class="btn btn-default"><a href = "#AboutUsTitle">About Us</a></button>
+                <button type="button" class="btn btn-default"><a href="#CosplayTitle">What is Cosplay?</a></button>
+                <div class="btn-group" role="group">
+                  <button id="btnDropOne" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Costumes<span class="caret"></span></button>
+                  <ul class="dropdown-menu" aria-labelledby="btnDropOne1">
+                    <li><a href="#CMC">Custom Made</a></li>
+                    <li><a href="#">Second-hand Costumes</a></li>
+                  </ul>
+                </div>
+                <button type="button" class="btn btn-default"><a href="#CossiePaTitle">CossiePa</a></button>
+                <button type="button" class="btn btn-default">Contact Us</button>
+              </div>
+            </div>
+            <div class="col-xs-8">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Announcements</h3>
+                </div>
+                <div class="panel-body">
+                  <a name="AnnouncementTitle"></a>
+                  <h4 class="announcement-title">This month on CossiePa: Get 3 drinks for the price of 2!</h4>
+                  <p>CossiePa is back! For this month, it’s time to treat your friends the good stuff: get 3 drinks for just the price of 2! So bring your friends, come on down and join the party!</p>
+                  <p>Not sure what is CossiePa? Go <a href="#CossiePaTitle">here</a>.</p>
+                  <p>Ready to get your tickets? Go here: Link to RSVP page.</p>
+                  <p>Terms and Conditions:</p>
+                  <ul>
+                    <li>Only applies to CossiePa partygoers.</li>
+                    <li>In the case of differing prices of the 3 drinks purchased, the higher 2 prices will be charged.</li>
+                    <li>Limit to 3 drinks per partygoer.</li>
+                    <li>Drinks included in the promotion are not limited to alcoholic drinks purchased at the bar.</li>
+                    <li>Alcohol will only be served to partygoers who are above the age of 18. Identification must be present whilst purchasing alcohol.</li>
+                  </ul>
+                  <h4 class="announcement-title">First time to CossiePa? Get 50% off your ticket!</h4>
+                  <p>If it’s your first time to the party, welcome on board and get 15% off your ticket for this month’s CossiePa!</p>
+                  <p>Not sure what is CossiePa? Go here: Link to CossiePa page.</p>
+                  <p>Ready to get your tickets? Go here: Link to RSVP page.</p>
+                  <p>Terms and Conditions:</p>
+                  <ul>
+                    <li>Only applies to new CossiePa partygoers not previously registered with CossiePlay.</li>
+                    <li>Only applies to this month CossiePa.</li>
+                    <li>Limited to 1 ticket per RSVP.</li>
+                  </ul>
+                  <h4 class="announcement-title">Custom costumes promotion for this month only!</h4>
+                  <p>Get a costume made with us now, and come to our next month’s CossiePa for free!</p>
+                  <p>Terms and Conditions:</p>
+                  <ul>
+                    <li>Partygoers must wear the costume made by CossiePlay to CossiePa in order to claim free entrance.</li>
+                    <li>A receipt of the costume must be presented together at CossiePa in order to claim free entrance.</li>
+                    <li>Limited to only 1 ticket per partygoer.</li>
+                  </ul>
+                  <h4 class="announcement-title">Wear it out!</h4>
+                  <p>Wear your CossiePlay costume to KFC on Stanton Street and get a free drink with every purchase of a 21-piece bucket! Tell them that you’ve been to CossiePlay!</p>
+                  <p>Terms and Conditions:</p>
+                  <ul>
+                    <li>Limited to this month only.</li>
+                    <li>Limited to 1 free drink per customer.</li>
+                    <li>A receipt of the costume must be presented together at the counter to claim the free drink. </li>
+                  </ul>
+                </div>
+                <div class="panel-footer"></div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <a name="AboutUsTitle"></a><h3 class="panel-title">About Us</h3>
+                </div>
+                <div class="panel-body">
+                  <p>CossiePlay is a small, family-run local business, operating in Hulkstown since 2012.</p>
+                  <p>We create outstanding custom cosplay and fancy dress costumes for every occasion. Cosplayers can order any kind of costume - from simple character costumes right up to costumes including advanced features like armour, animatronics, realistic weaponry and working force fields.</p>
+                  <p>For folks looking for a simplicity, we also sell pre-made and second-hand costumes at lower prices.</p>
+                  <p>We also run a monthly cosplay party, CossiePa, for cosplayers in Hulkstown to interact and make friends.</p>
+                  <p>Want us to make a costume? Go here: Link to Custom Made page.</p>
+                  <p>Looking for costumes? Go here: Link to Second-Hand Costumes page</p>
+                  <p>Not sure what is CossiePa? Go <a href="#CossiePaTitle">here</a>.</p>
+                </div>
+                <div class="panel-footer"></div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <a name="CosplayTitle"></a><h3 class="panel-title">What is Cosplay?</h3>
+                </div>
+                <div class="panel-body">
+                  <p>Cosplay, a combination of the words costume play, is a subculture which participants called cosplayers wear costumes and fashion accessories to represent a specific character from any form of media. Favorite sources include manga and anime, comic books and cartoons, video games, and live-action films and television series.</p>
+                  <p>Originating from the Western world, the rapid growth of the subculture since 1990 has made the phenomenon a significant aspect of popular culture in Japan and other parts of Asia. Cosplay events are common features of fan conventions and there are also dedicated conventions and local and international competitions, as well as social networks, websites and other forms of media centered on cosplay activities.</p>
+                  <p>More information:</p>
+                  <p><a href="https://en.wikipedia.org/wiki/Cosplay"><img alt="Wiki" src="images/Wikipedia_mini_button.jpg"></a> Wikipedia</p>
+                  <p><a href="http://cosplay.com/"><img src="images/Cosplay.com logo.gif" alt="Cosplay.com" width="64"></a> Cosplay.com</p>
+                  <p><a href="https://worldcosplay.net/"><img src="images/CureWorldCos.png" alt="Cure" width="64" height="64"></a> Cure WorldCosplay</p>
+                  <p><a href="http://www.worldcosplaysummit.jp/en/"><img src="images/WCS.png" alt="WCS" width="64" height="40"></a> World Cosplay Summit</p>
+                  <p><a href="http://www.cosplaygen.com/"><img src="images/cosplaygen.jpg" alt="CosplayGen" width="80"></a> CosplayGen</p>
+                  <p><a href="http://cosplaytutorial.com/"><img src="images/CosTut.gif" alt="CosplayTutorial" width="64"></a> Cosplay Tutorial</p>
+                </div>
+                <div class="panel-footer"></div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <a name="CMC"></a><h3 class="panel-title">Custom-Made Costumes</h3>
+                </div>
+                <div class="panel-body"> 
+                <p>CossiePlay carries the finest quality costumes, custom made for each customer. We ensure that all finished products are of the highest quality, matching the character's attire exactly down to the finest detail.</p>
+                <p>Here are some of our proudest works:</p>
+                <div class="row">
+                  <div class="col-xs-4"><img src="images/winter-kingdom-798279_1920.jpg" class="img-responsive" alt="WinterKingdom"></div>
+                  <div class="col-xs-4"><img src="images/boromir-4-1478698.jpg" class="img-responsive" alt="LOTR-Boromir"></div>
+                  <div class="col-xs-4"><img src="images/devils-570861_1280.jpg" class="img-responsive" alt="Devils"></div>
+                </div>
+                <p>We have also made simple costumes for children, no matter for Halloween or a school event.</p>
+                <div class="row">
+                  <div class="col-xs-4"><img src="images/olaf-630522_1280.jpg" class="img-responsive" alt="Olaf"></div>
+                  <div class="col-xs-4"><img src="images/spiderman-in-nature-2-1258899-640x480.jpg" class="img-responsive" alt="Spiderman"></div>
+                  <div class="col-xs-4"><img src="images/we-re-rabbits-1439192-1279x850.jpg" class="img-responsive" alt="Rabbits"></div>
+                </div>
+                <p>What are you waiting for? Order now!</p>
+                <h4>Ordering form:</h4>
+                <form>
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email">
+                <label for="choice">I want to:</label>
+                <select class="form-control" id="choice">
+                <option>Select the type of make</option>
+                <option>Custom-make</option>
+                <option>Buy Second-hand</option>
+                </select>
+                <label for="specs">Specifications and Measurements:</label>
+                <textarea class="form-control" rows="5" id="specs">
+                </textarea>
+                </form>
+                <p>Please allow us at least 2 working days to respond to your order.</p>
+                </div>
+                <div class="panel-footer"></div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <a name="SHC"></a><h3 class="panel-title">Second-Hand Costumes</h3>
+                </div>
+                <div class="panel-body">
+                <p>Looking to sell your unwanted costumes?</p>
+                <p>Looking for cheaper alternatives to get a costume?</p>
+                <p>At CossiePlay, we believe that one man's trash would be another man's treasure. Therefore, in addition to making costumes, we also help cosplayers sell their costumes to others who would like to try out cosplaying with less commitment.</p>
+                <p>Here below are the list of costumes currently in our care:</p>
+                <table width="100%" border="1">
+  <tbody>
+    <tr>
+      <th scope="col">&nbsp;</th>
+      <th scope="col">Character name</th>
+      <th scope="col">Size</th>
+      <th scope="col">Price</th>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td>Spiderman</td>
+      <td>12</td>
+      <td>$49</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Elf</td>
+      <td>16</td>
+      <td>$35</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Darth Vader</td>
+      <td>M</td>
+      <td>$149</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Iron Man (with rocket boots)</td>
+      <td>M</td>
+      <td>$2500</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Bayonetta</td>
+      <td>8</td>
+      <td>$300</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Diablo III – Demon Hunter</td>
+      <td>10</td>
+      <td>$250</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Harley Quinn</td>
+      <td>18</td>
+      <td>$125</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>Metroid – Samus Aran</td>
+      <td>L</td>
+      <td>$850</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>Peter Pan</td>
+      <td>XS</td>
+      <td>$49</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>Princess Leia (White Ver.)</td>
+      <td>10</td>
+      <td>$100</td>
+     </tr>
+      <th scope="row">11</th>
+      <td>Spock (Star Trek)</td>
+      <td>S</td>
+      <td>$1235</td>
+    </tr>
+  </tbody>
+</table>
+				<p>Please do message us about the specific measurements of the costumes as well as the actual pictures of the costumes.</p>
+                <p>For those who are interested in selling costumes, please also do notify us in the form below, and we will get back to you shortly for audting.</p>
+                <h4>Request form:</h4>
+                <form>
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email">
+                <label for="choice">I want to:</label>
+                <select class="form-control" id="choice">
+                <option>Select the option below:</option>
+                <option>Buy a costume</option>
+                <option>Sell a costume</option>
+                </select>
+              	<label for "buyChoice">If you would like to buy one of the costumes listed above, which one are you planning to buy?</label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_0">
+                 <label>Spiderman</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_1">
+                    Elf</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_2">
+                    Darth Vader</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_3">
+                    Iron Man (with rocket boots)</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_4">
+                    Bayonetta</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_5">
+                    Diablo III – Demon Hunter</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_6">
+                    Harley Quinn</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_7">
+                    Metroid – Samus Aran</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_8">
+                    Peter Pan</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_9">
+                    Princess Leia (White)</label>
+                  <br>
+                  <label>
+                    <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="CheckboxGroup1_10">
+                    Spock (Star Trek)</label>
+                  <br>
+                </p>
+                <label for="specs">If you are selling a costume, which character is it?</label>
+                <input type="text">
+                </textarea>
+                </form>
+                <p>Please allow us at least 2 working days to respond to your order.</p>
+                </div>
+                <div class="panel-footer">Panel footer</div>
+              </div>
+<div class="panel panel-default">
+            <div class="panel-heading">
+                  <a name="CossiePaTitle"></a><h3 class="panel-title">CossiePa</h3>
+                </div>
+                <div class="panel-body">
+                  <p>CossiePa is a monthly party event by CossiePlay, by cosplayers for cosplayers.</p>
+                  <p>For all of you geeks and otakus out there, here’s your chance to shine!</p>
+                  <p>Come join us for a night of live DJ music, drinks and dancing!</p>
+                  <div class="well-sm col-xs-6">
+                    <p>Location:</p>
+                    <p>Hulkstown Town Hall</p>
+                  </div>
+                  <div class="well-sm col-xs-6">
+                    <p>Time:</p>
+                    <p>6pm to 11pm</p>
+                    <p>(just in time for the last bus home!)</p>
+                  </div>
+                  <div class="well-lg">
+                    <p>Ticketing:</p>
+                    <p>Adult (ages 17 and up) - $15</p>
+                    <p>Children (ages 6 to 17) - $10</p>
+                    <p>All kids below 6 years old are free to enter! </p>
+                    <p>*Each entry ticket includes a complimentary non-alcoholic drink and a glowstick, for all your partying needs.</p>
+                  </div>
+                  <p>Rules and Regulations:</p>
+                  <ol>
+                    <li>CossiePa partygoers are responsible for their own health, safety and behaviour. Check with your doctor for any illnesses or discomforts before attending CossiePa. CossiePlay will not be responsible for any consequences should partygoers fail to follow the rules and regulations.</li>
+                    <li>Ticketing fees must be paid at the door. Cash or EFTPOS is accepted. Payment by credit card will incur a 2% surcharge to be paid by the partygoer, in addition to the ticketing fees.</li>
+                    <li>Alcohol is served at the bar for only partygoers above the age of 18 years. Alcoholic drinks are not allowed to be brought out of the event space. Non-alcoholic drinks are also available for purchase at the bar.</li>
+                    <li>Intoxicated partygoers will not be served nor welcome at CossiePa, but will be directed and escorted to taxi services, which the fees incurred would be paid by the intoxicated partygoer.</li>
+                    <li>Cosplaying is encouraged at CossiePa, but it is not a necessity. Similarly, dancing and other party-related events are not compulsory at CossiePa, but why leave yourself out of the fun?</li>
+                    <li>Our live DJ do accept song requests, but not more than 15 songs. Song requests chosen would be picked at random.</li>
+                  </ol>
+                </div>
+                <div class="panel-footer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<footer class="text-center">
+    <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <p>Copyright © CossiePlay. All rights reserved.</p>
+            </div>
+          </div>
+    </div>
+      </footer>
+  </div>
+  <script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
